@@ -4,7 +4,8 @@ namespace HotelProject.WebUI.ViewComponents.Default
 {
     public class _TrailerPartial:ViewComponent
     {
-        public IViewComponentResult Invoke() {  
+        public IViewComponentResult Invoke() 
+        {  
             return View(); 
         }
     }

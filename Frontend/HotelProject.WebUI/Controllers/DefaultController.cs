@@ -10,10 +10,12 @@ namespace HotelProject.WebUI.Controllers
     public class DefaultController : Controller
     {
         private readonly IHttpClientFactory _httpClientFactory;
+
         public DefaultController(IHttpClientFactory httpClientFactory)
         {
             _httpClientFactory = httpClientFactory;
         }
+
         public IActionResult Index()
         {
             return View();
@@ -24,6 +26,7 @@ namespace HotelProject.WebUI.Controllers
         {
             return PartialView();
         }
+
         [HttpPost]
         public async Task<IActionResult> _SubscribePartial(CreateSubscribeDto createSubscribeDto)
         {

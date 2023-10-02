@@ -15,7 +15,8 @@ namespace HotelProject.WebUI.ViewComponents.Default
             _httpClientFactory = httpClientFactory;
         }
 
-        public async Task<IViewComponentResult>  InvokeAsync() {
+        public async Task<IViewComponentResult>  InvokeAsync()
+        {
             var client = _httpClientFactory.CreateClient();
             var responseMessage = await client.GetAsync("http://localhost:21517/api/Room");
             if (responseMessage.IsSuccessStatusCode)
