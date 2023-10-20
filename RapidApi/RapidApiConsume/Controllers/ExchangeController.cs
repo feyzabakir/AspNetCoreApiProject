@@ -13,16 +13,15 @@ namespace RapidApiConsume.Controllers
     {
         public async Task<IActionResult> Index()
         {
-            
             var client = new HttpClient();
             var request = new HttpRequestMessage
             {
                 Method = HttpMethod.Get,
-                RequestUri = new Uri("https://apidojo-booking-v1.p.rapidapi.com/currency/get-exchange-rates?base_currency=TRY&languagecode=en-us"),
+                RequestUri = new Uri("https://booking-com.p.rapidapi.com/v1/metadata/exchange-rates?currency=TRY&locale=en-gb"),
                 Headers =
     {
         { "X-RapidAPI-Key", "3f71666baamsh8f1c519179ff821p189a44jsnd42329e48d03" },
-        { "X-RapidAPI-Host", "apidojo-booking-v1.p.rapidapi.com" },
+        { "X-RapidAPI-Host", "booking-com.p.rapidapi.com" },
     },
             };
             using (var response = await client.SendAsync(request))
@@ -32,6 +31,8 @@ namespace RapidApiConsume.Controllers
                 var values = JsonConvert.DeserializeObject<ExchangeViewModel>(body);
                 return View(values.exchange_rates.ToList());
             }
+
         }
     }
 }
+
