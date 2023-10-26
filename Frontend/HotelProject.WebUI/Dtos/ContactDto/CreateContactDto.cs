@@ -9,6 +9,6 @@ namespace HotelProject.WebUI.Dtos.ContactDto
         public string Subject { get; set; }
         public string Message { get; set; }
         public DateTime Date { get; set; }
-
+        public int MessageCategoryID { get; set; }
     }
 }
