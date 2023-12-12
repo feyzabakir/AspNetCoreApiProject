@@ -20,11 +20,13 @@ Asp.Net Core Api - Rapid Api ve Api Consume
 - Authorization
 
 ## Ekran Görüntüleri
-![Uygulama Ekran Görüntüsü](https://i.hizliresim.com/5u3g266.png)
+![Uygulama Ekran Görüntüsü](https://i.hizliresim.com/mruxqfx.jpeg)
 
-![Uygulama Ekran Görüntüsü](https://i.hizliresim.com/guafumd.png)
+![Uygulama Ekran Görüntüsü](https://i.hizliresim.com/nk6nrp1.jpeg)
 
-![Uygulama Ekran Görüntüsü](https://i.hizliresim.com/c0ekgc1.png)
+![Uygulama Ekran Görüntüsü](https://i.hizliresim.com/lnayoiv.jpeg)
 
-![Uygulama Ekran Görüntüsü](https://i.hizliresim.com/t8tupcd.png)
+![Uygulama Ekran Görüntüsü](https://i.hizliresim.com/5tsyd4i.jpeg)
+
+![Uygulama Ekran Görüntüsü](https://i.hizliresim.com/4qepu38.jpeg)
   
